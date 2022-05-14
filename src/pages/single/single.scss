@@ -22,9 +22,12 @@
         position: absolute;
         top: 0;
         right: 0;
-        font-size: 12px;
+        padding: 5px;
+        font-size: 15px;
         color: #7451f8;
-        b
+        background-color: #7551f818;
+        cursor: pointer;
+        border-radius: 0px 0px 0px 5px;
       }
 
       .item {
@@ -36,6 +39,13 @@
           height: 100px;
           border-radius: 50%;
           object-fit: cover;
+        }
+
+        .details {
+          .itemTitle {
+            margin-bottom: 10px;
+            color: 555;
+          }
         }
       }
 

@@ -19,7 +19,27 @@ const Single = () => {
                 className="itemImg"
               />
             </div>
-            details
+            <div className="details">
+              <h1 className="itemTitle">Jane Doe</h1>
+              <div className="detailItem">
+                <span className="itemKey">Email:</span>
+                <span className="itemValue">janedoe@gmail.com</span>
+              </div>
+              <div className="detailItem">
+                <span className="itemKey">Phone:</span>
+                <span className="itemValue">+234 474 900</span>
+              </div>
+              <div className="detailItem">
+                <span className="itemKey">Address:</span>
+                <span className="itemValue">
+                  Elton St. 234 Garden Yd. NewYork
+                </span>
+              </div>
+              <div className="detailItem">
+                <span className="itemKey">Country:</span>
+                <span className="itemValue">USA</span>
+              </div>
+            </div>
           </div>
           <div className="right"></div>
         </div>

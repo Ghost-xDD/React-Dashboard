@@ -33,8 +33,12 @@
   position: absolute;
   top: 0;
   right: 0;
-  font-size: 12px;
+  padding: 5px;
+  font-size: 15px;
   color: #7451f8;
+  background-color: #7551f818;
+  cursor: pointer;
+  border-radius: 0px 0px 0px 5px;
 }
 
 .single .singleContainer .top .item {
@@ -50,6 +54,11 @@
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.single .singleContainer .top .item .details .itemTitle {
+  margin-bottom: 10px;
+  color: 555;
 }
 
 .single .singleContainer .top .right {
